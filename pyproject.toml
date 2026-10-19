@@ -1,0 +1,22 @@
+[project]
+name = "gafe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Demba09", email = "144803721+Demba09@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=3.29.0",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.15.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+gafe = "gafe:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
