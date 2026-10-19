@@ -1,3 +1,5 @@
 .env
 scratch/
 .venv/
+__pycache__/
+*.pyc
